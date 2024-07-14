@@ -1,0 +1,14 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  word-break: break-all;
+}
+
+html {
+  width: 100%;
+  overflow-x: auto !important;
+}
