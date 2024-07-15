@@ -1,3 +1,5 @@
+通过本课程可以学习一套完整的服务端渲染的官网项目，以及最新的技术栈，包括 Nuxt.js、Vue3、Tailwind CSS 和 Vuetify。
+
 # 技术栈
 
 ### nuxt

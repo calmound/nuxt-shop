@@ -6,7 +6,7 @@
 
     <v-row class="pb-sm-8 ma-0">
       <v-col cols="12" sm="5" class="pa-0 tw-relative">
-        <v-img src="/about_img/1.jpg"></v-img>
+        <v-img src="/about/1.jpg"></v-img>
         <div
           class="py-4 tw-bottom-0 tw-absolute tw-w-full text-h5 tw-text-center tw-bg-[rgba(30,136,229,0.8)] tw-text-white"
           v-if="isMobile()">
@@ -193,7 +193,6 @@
       <div class="mb-8 text-blue-darken-1 tw-text-center text-h5 text-sm-h4 mb-sm-6">
         <strong>公司能力</strong>
       </div>
-
       <v-row>
         <v-col cols="12" sm="4">
           <v-card variant="outlined" color="blue-darken-1" v-if="!isMobile()">
@@ -240,7 +239,7 @@
         </v-col>
         <v-col cols="12" sm="4">
           <v-card variant="outlined" color="blue-darken-1" v-if="!isMobile()">
-            <v-img src="/about_img/3.jpg"></v-img>
+            <v-img src="/about/3.jpg"></v-img>
             <v-card-title class="text-grey-darken-4">专业的生产团队</v-card-title>
             <v-card-text class="text-grey-darken-4">
               我们的生产团队由经验丰富的人员组成，能够确保每件产品都符合高标准的质量要求。
