@@ -1,6 +1,6 @@
 <template>
   <Header />
-  Content
+  <NuxtPage />
   <Footer />
 </template>
 
@@ -8,3 +8,5 @@
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 </script>
+
+<style lang="less" scoped></style>

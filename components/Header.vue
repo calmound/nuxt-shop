@@ -9,10 +9,10 @@
     </v-row>
   </v-container>
   <v-tabs selected-class="active" v-model="tab" bg-color="blue-darken-1">
-    <v-tab value="1">首页</v-tab>
-    <v-tab value="2">产品列表</v-tab>
-    <v-tab value="3">关于我们</v-tab>
-    <v-tab value="4">联系我们</v-tab>
+    <v-tab value="1" to="/">首页</v-tab>
+    <v-tab value="2" to="/products">产品列表</v-tab>
+    <v-tab value="3" to="/about">关于我们</v-tab>
+    <v-tab value="4" to="/contact">联系我们</v-tab>
   </v-tabs>
 </template>
 
